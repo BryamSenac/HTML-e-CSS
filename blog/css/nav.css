@@ -5,30 +5,61 @@ nav{
     margin: 2vh 5vw;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     justify-content: space-between;
-    align-items: end;
 
-    background-color: red;
+    background-image: url("./../img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+
+    scroll-margin-top: 14vh;
 }
 
-nav div{
-    width: 96%;
-    text-align: start;
-
-    margin: 2%;
+#nav-texts{
+    width: 40%;
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+    background-color: #FFED00;
+    padding: 1vw 2vw;
 }
 
 nav h3{
     font-size: 3vw;
+    color: #151515;
 }
 nav p{
+    color: #151515;
     font-size: 1vw;
 }
 
+#nav-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;    
+    padding: 1vw 2vw;
+}
+
 nav button{
-    width: 15%;
-    height: 8%;
-    margin: 3% 5%;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1vw;
+
+    background-color: #014787;
+    border: none;
+    border-radius: 10vw;
+
+    cursor: pointer;
+    
+    color: white;
+}
+
+nav img{
+    width: 8vw;
+    height: 8vw;
+
+    padding-bottom: 0.8vw;
+    background-color: white;
+
+    border-radius: 50%;
 }

@@ -11,45 +11,81 @@ main {
 
 article {
     width: 75%;
-    background-color: blue;
 }
 
 article section {
     width: 90%;
     margin: 2% 5%;
+
+    scroll-margin-top: 13vh;
 }
 
 section h2 {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 section h4 {
-    font-size: 3vw;
+    margin: 2vh 0;
+    font-size: 2.5vw;
 }
 
 section p {
-    font-size: 1.5vw;
+    text-align: justify;
+    font-size: 1vw;
 }
 
 section img {
-    width: 90%;
+    width: 40%;
     height: auto;
 
-    margin: 1%;
+    margin: 3vh 30%;
+}
+.img-retangular{
+    width: 80%;
+    height: 60vh;
+    margin: 0 10% 3vh;
 }
 
 aside {
     width: 23%;
-    background-color: blue;
-
     position: sticky;
     top: 13vh;
 }
 
+#atalhos{
+    padding: 0.2% 0;
+    background-color: #014787;
+}
+
 .item_atalho {
-    font-size: 1.5vw;
-
-    margin: 2% 5%; 
-
+    font-size: 1.2vw;
+    margin: 2%;
+    padding: 2% 5%;
     list-style: none;
+    color: white;
+    background-color: #085aa6;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.propaganda{
+    width: 100%;
+    height: 15vh;
+
+    margin: 1vw 0;
+
+    background-position: center;
+    background-size: cover;
+}
+
+#stean{
+    background-image: url("https://wallpapercave.com/wp/wp3130254.jpg");
+}
+#xbox{
+    background-image: url("https://wallpapercave.com/wp/wp3403704.jpg");
+}
+#playstation{
+    background-image: url("https://th.bing.com/th/id/R.8f59ce8508f926e7a971f8012ea039dd?rik=bK8%2bkgEnLa2YRw&pid=ImgRaw&r=0");
 }
