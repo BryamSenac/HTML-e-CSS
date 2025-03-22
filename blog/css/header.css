@@ -42,3 +42,16 @@ header{
     cursor: pointer;
 }
 
+@media (max-width: 480px){
+    .logo-lego{
+        display: none;
+    }
+    #titulo_pagina{
+        font-size: 8vw;
+    }
+    #botao_voltar_topo{
+        width: 40%;
+    
+        font-size: 6vw;
+    }
+}

@@ -63,3 +63,32 @@ nav img{
 
     border-radius: 50%;
 }
+
+@media (max-width: 480px){
+    nav{
+        width: 90vw;
+        height: 15vh;
+
+        margin: 1vh 3vw;
+    }
+    
+    nav h3{
+        font-size: 4vw;
+    }
+    nav p{
+        display: none;
+    }
+    
+    nav button{
+        width: 30vw;
+        height: 4vh;
+        font-size: 2vw;
+    }
+    
+    nav img{
+        width: 11vw;
+        height: 10vw;
+    
+        padding-bottom: 1vw;
+    }
+}

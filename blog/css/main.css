@@ -40,7 +40,8 @@ section img {
 
     margin: 3vh 30%;
 }
-.img-retangular{
+
+.img-retangular {
     width: 80%;
     height: 60vh;
     margin: 0 10% 3vh;
@@ -52,7 +53,7 @@ aside {
     top: 13vh;
 }
 
-#atalhos{
+#atalhos {
     padding: 0.2% 0;
     background-color: #014787;
 }
@@ -70,7 +71,7 @@ aside {
     justify-content: space-between;
 }
 
-.propaganda{
+.propaganda {
     width: 100%;
     height: 15vh;
 
@@ -80,12 +81,53 @@ aside {
     background-size: cover;
 }
 
-#stean{
+#stean {
     background-image: url("https://wallpapercave.com/wp/wp3130254.jpg");
 }
-#xbox{
+
+#xbox {
     background-image: url("https://wallpapercave.com/wp/wp3403704.jpg");
 }
-#playstation{
+
+#playstation {
     background-image: url("https://th.bing.com/th/id/R.8f59ce8508f926e7a971f8012ea039dd?rik=bK8%2bkgEnLa2YRw&pid=ImgRaw&r=0");
+}
+
+@media (max-width: 480px) {
+    aside {
+        display: none;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    article section {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    section h2 {
+        font-size: 7vw;
+    }
+
+    section h4 {
+        margin: 1vh 0;
+        font-size: 5vw;
+    }
+
+    section p {
+        font-size: 3.5vw;
+    }
+
+    section img {
+        width: 60%;
+        margin: 0vh 20%;
+    }
+
+    .img-retangular {
+        width: 90%;
+        height: 30vh;
+        margin: 0 5%;
+    }
 }
