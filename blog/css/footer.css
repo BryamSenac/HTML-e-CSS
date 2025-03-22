@@ -21,6 +21,8 @@ footer{
     margin: 0 0.5vw;
 
     color: white;
+
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {
