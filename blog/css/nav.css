@@ -52,6 +52,11 @@ nav button{
     cursor: pointer;
     
     color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+nav button:hover{
+    transform: scale(1.1);
 }
 
 nav img{

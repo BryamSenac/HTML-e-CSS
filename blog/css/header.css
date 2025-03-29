@@ -1,4 +1,4 @@
-header{
+header {
     width: 100vw;
     height: 12vh;
 
@@ -14,26 +14,26 @@ header{
 
     position: sticky;
     top: 0;
-    
+
     z-index: 1;
 }
 
-.logo-lego{
+.logo-lego {
     width: auto;
     height: 90%;
 }
 
-#titulo_pagina{
+#titulo_pagina {
     color: #151515;
     font-size: 3vw;
 }
 
-#botao_voltar_topo{
+#botao_voltar_topo {
     width: 20%;
     height: 100%;
 
     clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
-    
+
     background-color: white;
     border: none;
 
@@ -42,16 +42,27 @@ header{
     cursor: pointer;
 }
 
-@media (max-width: 480px){
-    .logo-lego{
+#botao_voltar_topo i {
+    transition: all 0.2s ease-in-out;
+}
+
+#botao_voltar_topo:hover i {
+    font-size: 3vw;
+    transform: rotate(1turn);
+}
+
+@media (max-width: 480px) {
+    .logo-lego {
         display: none;
     }
-    #titulo_pagina{
+
+    #titulo_pagina {
         font-size: 8vw;
     }
-    #botao_voltar_topo{
+
+    #botao_voltar_topo {
         width: 40%;
-    
+
         font-size: 6vw;
     }
 }

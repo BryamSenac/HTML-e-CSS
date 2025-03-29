@@ -7,6 +7,8 @@ main {
 
     justify-content: space-between;
     align-items: start;
+
+    cursor: default;
 }
 
 article {
@@ -60,8 +62,7 @@ aside {
 
 .item_atalho {
     font-size: 1.2vw;
-    margin: 2%;
-    padding: 2% 5%;
+    margin: 2%; 
     list-style: none;
     color: white;
     background-color: #085aa6;
@@ -69,6 +70,20 @@ aside {
 
     display: flex;
     justify-content: space-between;
+
+    transition: all 0.2s ease-in-out;
+}
+.item_atalho p{
+    margin: 2% 5%;
+}
+.item_atalho i{
+    transition: all 0.2s ease-in-out;
+    margin: 2% 8%;
+}
+
+.item_atalho:hover i{
+    transform: scale(1.5);
+    margin: 1% 5%;
 }
 
 .propaganda {
@@ -78,7 +93,13 @@ aside {
     margin: 1vw 0;
 
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
+
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.propaganda:hover{  
+    background-size: 150%;
 }
 
 #stean {
