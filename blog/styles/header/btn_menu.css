@@ -1,0 +1,34 @@
+.menu_item {
+    color: var(--colorBlack);
+    padding: 0 1vw;
+    cursor: pointer;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 500ms;
+    transition-property: color;
+}
+
+.menu_item:focus,
+.menu_item:hover {
+    color: var(--colorBlack);
+}
+
+.menu_item:focus:after,
+.menu_item:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.menu_item:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: var(--colorBlack);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 500ms;
+    transition-property: width, left;
+}

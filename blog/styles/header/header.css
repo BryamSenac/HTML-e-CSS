@@ -1,0 +1,26 @@
+@import url(./btn_menu.css);
+@import url(./languages.css);
+
+header{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.4vh 1.4vw;
+
+    font-size: 1vw;
+    font-family: var(--fontCurve);
+    color: var(--colorBlack);
+}
+
+header div{
+    display: flex;
+    align-items: center;
+}
+
+header .logo{
+    width: 7%;
+}
+

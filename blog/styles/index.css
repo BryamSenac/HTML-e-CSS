@@ -1,20 +1,7 @@
-@import url(./header.css);
-@import url(./main.css);
-@import url(./nav.css);
-@import url(./footer.css);
+@import url(./default.css);
+@import url(./vars.css);
+@import url(./header/header.css);
 
 body{
-    margin: 0;
-    padding: 0;
-
-    overflow-x: hidden;
     background-color: white;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: "Lilita One";
-}
-
-p, button, li{
-    font-family: "Montserrat";
 }
