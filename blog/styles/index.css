@@ -3,5 +3,21 @@
 @import url(./header/header.css);
 
 body{
-    background-color: white;
+    background-color: var(--colorWhite);
+}
+
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .mobile-only{
+        display: block;
+    }
+    .desktop-only{
+        display: none;
+    }    
 }

@@ -1,15 +1,33 @@
-#menu{
-    display: flex;
-}
-
 #language{
     margin: 0 1vw;
 }
 
-#language_icon_container{
-    background-color: var(--colorBlack);
-    color: var(--colorWhite);
+#language_container{
+    width: 2vw;
+    height: 2vw;
     border-radius: 50%;
 
-    padding: 0.6vw;
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+@media (max-width: 820px) {
+    #language_container{
+        width: 4vw;
+        height: 4vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #language_container{
+        width: 7vw;
+        height: 7vw;
+
+        font-size: 2vw;
+    }
+}
+

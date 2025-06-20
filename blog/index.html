@@ -12,27 +12,46 @@
             crossorigin="anonymous"></script>
     </head>
     <body>
-        <header class="header">
-            <div class="menu-toggle" id="menuToggle">
-                <i class="fa-solid fa-bars"></i>
+        <header>
+            <div>
+                <img
+                    src="https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png"
+                    alt="logo-lego" id="header-logo" class="desktop-only" />
+                <ul id="menu">
+                    <li>
+                        <p class="desktop-only text-menu">Home</p>
+                        <div class="mobile-only "><i class="fa-solid fa-house"></i></div>
+                    </li>
+                    <li>
+                        <p class="desktop-only text-menu">Notícia</p>
+                        <div class="mobile-only "><i class="fa-solid fa-newspaper"></i></div>
+                    </li>
+                    <li>
+                        <p class="desktop-only text-menu">Quebra-Cabeças</p>
+                        <div class="mobile-only "><i class="fa-solid fa-puzzle-piece"></i></div>
+                    </li>
+                    <li>
+                        <p class="desktop-only text-menu">Jogos</p>
+                        <div class="mobile-only "><i class="fa-solid fa-gamepad"></i></div>
+                    </li>
+                    <li>
+                        <p class="desktop-only text-menu">Filmes</p>
+                        <div class="mobile-only "><i class="fa-solid fa-video"></i></div>
+                    </li>
+                </ul>
             </div>
-            <div class="logo">LOGO</div>
-            <div class="language-selector" id="languageIcon">
-                <span id="languageText">EN</span>
-                <div class="language-options">
-                    <span data-lang="EN">EN</span>
-                    <span data-lang="BR">BR</span>
+            <div>
+                <img
+                src="https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png"
+                alt="logo-lego" id="header-logo" class="mobile-only" />
+                <h2 class="desktop-only" id="language">BR</h2>
+                <div id="language_container">
+                    <div class="desktop-only">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h2 class="mobile-only" id="language">BR</h2>
                 </div>
             </div>
-            <!-- Menu lateral -->
-            <nav class="side-menu" id="sideMenu">
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="overlay" id="overlay"></div>
         </header>
     </body>
 </html>

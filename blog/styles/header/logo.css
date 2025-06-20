@@ -1,0 +1,26 @@
+#header-logo{
+    width: 7%;
+    height: auto;
+
+    margin-right: 1%;
+}
+
+.img-mobile-only{
+    display: none;
+}
+.img-desktop-only{
+    display: block;
+}
+
+@media (max-width: 820px) {
+    #header-logo{
+        width: 12%;  
+    }
+}
+
+@media (max-width: 480px) {
+    #header-logo{
+        width: 30%;  
+        margin-right: 3%;
+    }
+}
