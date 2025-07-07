@@ -1,6 +1,8 @@
 @import url(./default.css);
 @import url(./vars.css);
+
 @import url(./header/header.css);
+@import url(./nav/nav.css);
 
 body{
     background-color: var(--colorWhite);

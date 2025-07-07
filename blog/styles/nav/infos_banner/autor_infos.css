@@ -1,0 +1,70 @@
+#autor-infos{
+    width: 20%;
+
+    margin-bottom: 7%;
+    padding: 0.5% 0;
+    padding-left: 0.5%;
+
+    border-radius: 20vw 0 0 20vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    background-color: var(--colorWhite);
+    box-shadow: 1vw 1.2vw 1vw -0.2vw var(--colorShadow);
+}
+
+#autor-img{
+    width: 4vw;
+    height:4vw;
+
+    border-radius: 50%;
+    margin-right: 5%;
+
+    background-image: url(https://st5.depositphotos.com/10614052/67605/i/450/depositphotos_676056200-stock-photo-young-woman-yellow-background.jpg);
+    background-position: top;
+    background-size: 220%;
+}
+
+#name-date{
+    text-align: end;
+}
+
+#name-date h1{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+#name-date p{
+    font-size: 1.2vw;
+    font-weight: 200;
+}
+
+@media (max-width: 820px) {
+    #autor-infos{  
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 480px) {
+    #autor-infos{
+        width: 40%;
+        margin-bottom: 5%;
+        padding-left: 1%;
+    }
+    
+    #autor-img{
+        width: 10vw;
+        height:10vw;
+    }
+    
+    #name-date h1{
+        font-size: 3.5vw;
+    }
+    
+    #name-date p{
+        font-size: 2.5vw;
+    }
+} 

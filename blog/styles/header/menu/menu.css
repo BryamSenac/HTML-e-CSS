@@ -15,6 +15,7 @@
 @media (max-width: 480px) {
     #menu{
         font-size: 5vw;
+        margin-left: 5vw;
     }
     #menu i{
         margin: 0 4vw 0 0;

@@ -3,6 +3,7 @@
     height: auto;
 
     margin-right: 1%;
+    filter: drop-shadow(3px 8px 3px var(--colorShadow));
 }
 
 .img-mobile-only{
