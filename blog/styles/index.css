@@ -3,6 +3,7 @@
 
 @import url(./header/header.css);
 @import url(./nav/nav.css);
+@import url(./sections/sections.css);
 
 body{
     background-color: var(--colorWhite);
@@ -13,13 +14,4 @@ body{
 }
 .desktop-only{
     display: block;
-}
-
-@media (max-width: 480px) {
-    .mobile-only{
-        display: block;
-    }
-    .desktop-only{
-        display: none;
-    }    
 }

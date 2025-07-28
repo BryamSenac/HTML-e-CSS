@@ -4,39 +4,23 @@
 
 header{
     position: fixed;
-    
-    width: 97vw;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2.5vh 1.5vw;
+    margin: 1.5vw 1.5vw;
 
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-family: var(--fontCurve);
     color: var(--colorBlack);
 
     background-color: var(--colorWhite);
-    border-radius: 50vw;
+    border-radius: 8px;
     padding: 1.5vh 1.5vw;
 
-    box-shadow: 1vw 1.2vw 1vw -0.2vw var(--colorShadow);
+    box-shadow: 0.4vw 0.8vw 0.7vw var(--colorShadow);
 }
 
 header div{
     display: flex;
     align-items: center;
-}
-
-@media (max-width: 820px) {
-  header{
-    font-size: 2vw;
-  }
-}
-
-@media (max-width: 480px) {
-    header div{
-        display: flex;
-        justify-content: end;
-    }
 }

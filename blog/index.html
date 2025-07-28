@@ -19,27 +19,32 @@
                     alt="logo-lego" id="header-logo" class="desktop-only" />
                 <ul id="menu">
                     <li>
-                        <p class="desktop-only text-menu">Home</p>
+                        <a href="#banners"
+                            class="desktop-only text-menu">Home</a>
                         <div class="mobile-only "><i
                                 class="fa-solid fa-house"></i></div>
                     </li>
                     <li>
-                        <p class="desktop-only text-menu">Notícia</p>
+                        <a href="#news"
+                            class="desktop-only text-menu">Notícia</a>
                         <div class="mobile-only "><i
                                 class="fa-solid fa-newspaper"></i></div>
                     </li>
                     <li>
-                        <p class="desktop-only text-menu">Quebra-Cabeças</p>
+                        <a href="#puzles"
+                            class="desktop-only text-menu">Quebra-Cabeças</a>
                         <div class="mobile-only "><i
                                 class="fa-solid fa-puzzle-piece"></i></div>
                     </li>
                     <li>
-                        <p class="desktop-only text-menu">Jogos</p>
+                        <a href="#games"
+                            class="desktop-only text-menu">Jogos</a>
                         <div class="mobile-only "><i
                                 class="fa-solid fa-gamepad"></i></div>
                     </li>
                     <li>
-                        <p class="desktop-only text-menu">Filmes</p>
+                        <a href="#movies"
+                            class="desktop-only text-menu">Filmes</a>
                         <div class="mobile-only "><i
                                 class="fa-solid fa-video"></i></div>
                     </li>
@@ -61,15 +66,36 @@
         <nav id="banners">
             <section id="infos-banner">
                 <div id="banner-btns">
-                    <button id="store-button">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <h3>Loja</h3>
-                    </button>
+                    <div class="btn-conteiner"
+                        onclick="window.open('https://www.legostore.com.br/', 'blank')">
+                        <a class="btn-content" href="#">
+                            <span class="btn-title">Loja</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px"
+                                    viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1"
+                                        fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#111111"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
                     <div id="title-description-banner">
-                        <h1>Legos em Promoção?</h1>
-                        <p>Os quebra cabeças da LEGO, mesmo sendo um dos mais
-                            caros do mercado, dominam as vendas de
-                            Quebra-Cabeças tematicos!</p>
+                        <h1>Explore o Universo <b>LEGO</b></h1>
+                        <p>A criatividade não para quando a caixa fecha.
+                            Descubra tudo o que o mundo LEGO tem a oferecer além
+                            dos blocos!</p>
                     </div>
                     <div id='btns-rotation-banner'>
                         <div class="btn-banner"></div>
@@ -94,5 +120,656 @@
                 </div>
             </section>
         </nav>
+        <main>
+            <section class="cards-sections" id="news">
+                <div class="title-description-section">
+                    <div>
+                        <h1>Notícia</h1>
+                        <h4><b>Fique por dentro de tudo!</b> Dos novos sets
+                            chegando às lojas aos segredos dos designers. Aqui
+                            você não perde o encaixe de nenhuma novidade.</h4>
+                    </div>
+                    <div class="btn-conteiner btn-section" onclick>
+                        <a class="btn-content" href="#">
+                            <span class="btn-title">Mais!</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px"
+                                    viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1"
+                                        fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#111111"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-section">
+                    <div class="card">
+                        <img src="./assets/img/banners/city_lego.png"
+                            alt="Imagem do novo set LEGO">
+                        <h5>15/07/2024</h5>
+                        <h1>LEGO Lança Set Exclusivo do Castelo de Hogwarts</h1>
+                        <p>A LEGO® acaba de anunciar o lançamento de um set
+                            épico do Castelo de Hogwarts, com mais de 6.000
+                            peças e detalhes incríveis que farão a alegria dos
+                            fãs de Harry Potter e colecionadores. Prepare-se
+                            para construir a magia!</p>
+                        <div>
+                            <img src="./assets/img/writers/escritor (1).png"
+                                alt="Foto do escritor Minifigure">
+                            <h1>Prof. Brick</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/city_lego.png"
+                            alt="Imagem de ideias LEGO vencedoras">
+                        <h5>28/06/2024</h5>
+                        <h1>Fãs Votam: Ideia de "Arcade Clássico" Vence no LEGO
+                            Ideas!</h1>
+                        <p>Após uma votação acirrada, o projeto
+                            "Retro Arcade Mania" do LEGO Ideas foi eleito o
+                            próximo set a ser produzido. Descubra os detalhes
+                            deste tributo nostálgico aos jogos de fliperama dos
+                            anos 80 e 90.</p>
+                        <div>
+                            <img src="./assets/img/writers/escritor (1).png"
+                                alt="Foto da escritora Mini Blocks">
+                            <h1>Mini Blocks</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/city_lego.png"
+                            alt="Imagem de um jogo LEGO">
+                        <h5>01/07/2024</h5>
+                        <h1>Novo Jogo LEGO Star Wars Anunciado para
+                            Consoles</h1>
+                        <p>Prepare-se para uma nova aventura galáctica! A TT
+                            Games revelou um novo título da série LEGO Star
+                            Wars, prometendo mais humor, ação e a exploração de
+                            todas as nove sagas de filmes com o estilo LEGO
+                            característico.</p>
+                        <div>
+                            <img src="./assets/img/writers/escritor (1).png"
+                                alt="Foto do escritor Lord Builder">
+                            <h1>Lord Builder</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/city_lego.png"
+                            alt="Imagem de peças LEGO sustentáveis">
+                        <h5>10/05/2024</h5>
+                        <h1>LEGO Avança em Sustentabilidade com Novas Peças
+                            Ecológicas</h1>
+                        <p>A LEGO Group reafirma seu compromisso com o meio
+                            ambiente, anunciando a introdução de novas peças
+                            feitas de materiais reciclados e sustentáveis. Um
+                            passo importante rumo a um futuro mais verde para a
+                            diversão!</p>
+                        <div>
+                            <img src="./assets/img/writers/escritor (1).png"
+                                alt="Foto da escritora Queen Plastic">
+                            <h1>Queen Plastic</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards-sections" id="puzles">
+                <div class="title-description-section">
+                    <div>
+                        <h1>Quebra-cabeças</h1>
+                        <h4><b>Desafie sua mente!</b> Encare quebra-cabeças
+                            divertidos que vão testar sua lógica e sua
+                            paciência, peça por peça. Você consegue montar
+                            todos?</h4>
+                    </div>
+                    <div class="btn-conteiner btn-section" onclick>
+                        <a class="btn-content" href="#">
+                            <span class="btn-title">Mais!</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px"
+                                    viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1"
+                                        fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#111111"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-section">
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_coliseum.png"
+                            alt="LEGO Coliseu de Roma">
+                        <h5>Lançamento: 27/11/2020</h5>
+                        <h1>LEGO Coliseu (10276)</h1>
+                        <p>Com mais de 9.000 peças, este é o maior set LEGO já
+                            lançado, um quebra-cabeça colossal que recria o
+                            icônico Coliseu de Roma com detalhes arquitetônicos
+                            impressionantes. Um desafio épico para construtores
+                            experientes.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_arquiteto.png"
+                                alt="Foto do escritor Arquiteto Bricker">
+                            <h1>Arquiteto Bricker</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_world_map.png"
+                            alt="LEGO Mapa Mundi">
+                        <h5>Lançamento: 01/06/2021</h5>
+                        <h1>LEGO Mapa Mundi (31203)</h1>
+                        <p>Explore o mundo em um novo formato com este set de
+                            mosaico 2D. São 11.695 peças que permitem construir
+                            seu próprio mapa-múndi personalizado, ideal para fãs
+                            de arte e geografia que amam um desafio visual.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_explorador.png"
+                                alt="Foto do escritor Explorador Peças">
+                            <h1>Explorador Peças</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/lego_millennium_falcon.png"
+                            alt="LEGO Millennium Falcon UCS">
+                        <h5>Lançamento: 01/10/2017</h5>
+                        <h1>LEGO Millennium Falcon UCS (75192)</h1>
+                        <p>Um dos sets mais procurados, esta versão Ultimate
+                            Collector Series do Millennium Falcon possui 7.541
+                            peças e é um quebra-cabeça complexo de montar,
+                            oferecendo uma riqueza de detalhes inigualável da
+                            nave Star Wars.</p>
+                        <div>
+                            <img src="./assets/img/writers/minifig_jedi.png"
+                                alt="Foto da escritora Mestra Força">
+                            <h1>Mestra Força</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_taj_mahal.png"
+                            alt="LEGO Taj Mahal">
+                        <h5>Lançamento: 01/10/2017</h5>
+                        <h1>LEGO Taj Mahal (10256)</h1>
+                        <p>A reconstrução de uma maravilha do mundo, o Taj Mahal
+                            em LEGO, é um desafio de simetria e detalhe. Com
+                            quase 6.000 peças, sua montagem exige paciência e
+                            atenção para capturar a beleza arquitetônica.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_construtor.png"
+                                alt="Foto do escritor Mestre Blocos">
+                            <h1>Mestre Blocos</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_eiffel_tower.png"
+                            alt="LEGO Torre Eiffel">
+                        <h5>Lançamento: 25/11/2022</h5>
+                        <h1>LEGO Torre Eiffel (10307)</h1>
+                        <p>Com impressionantes 149 cm de altura e mais de 10.000
+                            peças, a Torre Eiffel em LEGO é um dos sets mais
+                            altos e detalhados. Sua estrutura complexa e
+                            repetitiva é um verdadeiro teste de resistência e
+                            habilidade.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_engenheiro.png"
+                                alt="Foto da escritora Engenheira Peças">
+                            <h1>Engenheira Peças</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_flower_bouquet.png"
+                            alt="LEGO Buquê de Flores">
+                        <h5>Lançamento: 01/01/2021</h5>
+                        <h1>LEGO Buquê de Flores (10280)</h1>
+                        <p>Um quebra-cabeça diferente! Este set permite
+                            construir um lindo buquê de flores botânicas em
+                            LEGO, oferecendo um desafio criativo e relaxante
+                            para decorar qualquer ambiente com peças coloridas e
+                            formas variadas.</p>
+                        <div>
+                            <img src="./assets/img/writers/minifig_florista.png"
+                                alt="Foto da escritora Jardineira Bricks">
+                            <h1>Jardineira Bricks</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/lego_typewriter.png"
+                            alt="LEGO Máquina de Escrever">
+                        <h5>Lançamento: 16/06/2021</h5>
+                        <h1>LEGO Máquina de Escrever (21327)</h1>
+                        <p>Uma réplica funcional de uma máquina de escrever
+                            clássica, este set é um quebra-cabeça engenhoso.
+                            Suas mecânicas internas e o design retrô são um
+                            deleite para construir e admirar, com peças únicas e
+                            um mecanismo complexo.</p>
+                        <div>
+                            <img src="./assets/img/writers/minifig_escritor.png"
+                                alt="Foto do escritor Cronista Bloco">
+                            <h1>Cronista Bloco</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/lego_star_wars_helmet.png"
+                            alt="LEGO Capacete de Star Wars">
+                        <h5>Várias Datas</h5>
+                        <h1>Coleção de Capacetes LEGO Star Wars</h1>
+                        <p>A série de capacetes de personagens icônicos de Star
+                            Wars oferece quebra-cabeças compactos e detalhados.
+                            Cada capacete é um desafio de montagem satisfatório,
+                            perfeito para exibição e fãs da saga galáctica.</p>
+                        <div>
+                            <img src="./assets/img/writers/minifig_trooper.png"
+                                alt="Foto do escritor Comandante Tijolo">
+                            <h1>Comandante Tijolo</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards-sections" id="games">
+                <div class="title-description-section">
+                    <div>
+                        <h1>Jogos</h1>
+                        <h4><b>Prepare-se para a ação!</b> Controle seus heróis
+                            favoritos, resolva desafios e aventure-se em mundos
+                            digitais incríveis. Pegue seu controle (ou mouse) e
+                            vamos lá!</h4>
+                    </div>
+                    <div class="btn-conteiner btn-section" onclick>
+                        <a class="btn-content" href="#">
+                            <span class="btn-title">Mais!</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px"
+                                    viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1"
+                                        fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#111111"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-section">
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_star_wars_games.png"
+                            alt="Jogos LEGO Star Wars">
+                        <h5>Primeiro Lançamento: 2005</h5>
+                        <h1>Jogos LEGO Star Wars</h1>
+                        <p>A franquia que deu início a tudo! Reviva todas as
+                            sagas de Star Wars com o humor inconfundível dos
+                            jogos LEGO. De "The Video Game" a
+                            "The Skywalker Saga", explore galáxias, use a Força
+                            e colete milhares de studs.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_jedi_theme.png"
+                                alt="Foto do escritor Mestre da Força">
+                            <h1>Mestre da Força</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_marvel_games.png"
+                            alt="Jogos LEGO Marvel">
+                        <h5>Primeiro Lançamento: 2013</h5>
+                        <h1>Jogos LEGO Marvel</h1>
+                        <p>Junte-se aos Vingadores, X-Men e Guardiões da Galáxia
+                            em aventuras épicas. Explore Nova York de mundo
+                            aberto, use superpoderes e enfrente vilões icônicos
+                            em jogos repletos de ação e piadas.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_hero_theme.png"
+                                alt="Foto da escritora Capitã Universo">
+                            <h1>Capitã Universo</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/theme_lego_dc_games.png"
+                            alt="Jogos LEGO DC Comics">
+                        <h5>Primeiro Lançamento: 2008</h5>
+                        <h1>Jogos LEGO DC Comics</h1>
+                        <p>Do sombrio Gotham City ao vasto universo DC, ajude ou
+                            atrapalhe Batman, Superman e a Liga da Justiça.
+                            Explore cidades abertas e, em "Super-Villains",
+                            jogue como seus vilões favoritos.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_bat_theme.png"
+                                alt="Foto do escritor Cavaleiro dos Blocos">
+                            <h1>Cavaleiro dos Blocos</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_harry_potter_games.png"
+                            alt="Jogos LEGO Harry Potter">
+                        <h5>Primeiro Lançamento: 2010</h5>
+                        <h1>Jogos LEGO Harry Potter</h1>
+                        <p>Reviva os anos de Harry em Hogwarts e além. Lance
+                            feitiços, descubra segredos e explore o mundo mágico
+                            com o charme e o humor dos jogos LEGO, cobrindo
+                            todos os sete livros/filmes.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_wizard_theme.png"
+                                alt="Foto da escritora Bruxa da Magia">
+                            <h1>Bruxa da Magia</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_indiana_jones_games.png"
+                            alt="Jogos LEGO Indiana Jones">
+                        <h5>Primeiro Lançamento: 2008</h5>
+                        <h1>Jogos LEGO Indiana Jones</h1>
+                        <p>Acompanhe o arqueólogo mais famoso do cinema em suas
+                            aventuras clássicas. Desvende mistérios, escape de
+                            armadilhas e encontre tesouros perdidos com muita
+                            ação e o estilo LEGO.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_explorer_theme.png"
+                                alt="Foto do escritor Aventureiro de Tijolos">
+                            <h1>Aventureiro de Tijolos</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_jurassic_world_games.png"
+                            alt="Jogos LEGO Jurassic World">
+                        <h5>Primeiro Lançamento: 2015</h5>
+                        <h1>Jogos LEGO Jurassic World</h1>
+                        <p>Experimente a emoção dos quatro filmes de Jurassic
+                            Park/World. Jogue como humanos e dinossauros,
+                            explore as ilhas e reviva cenas icônicas com o toque
+                            divertido e construtivo dos jogos LEGO.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_dino_theme.png"
+                                alt="Foto do escritor Dr. T-Rex">
+                            <h1>Dr. T-Rex</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_city_games.png"
+                            alt="Jogos LEGO City">
+                        <h5>Primeiro Lançamento: 2013</h5>
+                        <h1>Jogos LEGO City</h1>
+                        <p>Entre na pele do policial Chase McCain e explore a
+                            vibrante LEGO City em um jogo de mundo aberto
+                            original. Cheio de missões, disfarces e veículos, é
+                            uma paródia divertida de filmes policiais.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_police_theme.png"
+                                alt="Foto do escritor Chefe da Cidade">
+                            <h1>Chefe da Cidade</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_dimensions_games.png"
+                            alt="Jogos LEGO Dimensions">
+                        <h5>Primeiro Lançamento: 2015</h5>
+                        <h1>LEGO Dimensions</h1>
+                        <p>Um crossover definitivo! Combine universos de
+                            diversas franquias (DC, Senhor dos Anéis, Simpsons,
+                            etc.) em uma aventura interdimensional. Use figuras
+                            físicas de LEGO para dar vida aos personagens no
+                            jogo.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_portal_theme.png"
+                                alt="Foto do escritor Construtor de Portais">
+                            <h1>Construtor de Portais</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_ninjago_games.png"
+                            alt="Jogos LEGO Ninjago">
+                        <h5>Primeiro Lançamento: 2011</h5>
+                        <h1>Jogos LEGO Ninjago</h1>
+                        <p>Domine as artes marciais Spinjitzu e salve o mundo de
+                            Ninjago. Baseados na popular série de TV e no filme,
+                            esses jogos oferecem combates intensos, exploração e
+                            a construção de veículos ninja.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_ninja_theme.png"
+                                alt="Foto do escritor Mestre do Spinjitzu">
+                            <h1>Mestre do Spinjitzu</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_pirates_caribbean_games.png"
+                            alt="Jogos LEGO Piratas do Caribe">
+                        <h5>Primeiro Lançamento: 2011</h5>
+                        <h1>Jogos LEGO Piratas do Caribe</h1>
+                        <p>Navegue pelos sete mares com o Capitão Jack Sparrow e
+                            sua tripulação em uma adaptação bem-humorada dos
+                            filmes. Explore ilhas, duele com inimigos e descubra
+                            tesouros em uma aventura pirata.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_pirate_theme.png"
+                                alt="Foto do escritor Capitão Plástico">
+                            <h1>Capitão Plástico</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_lord_rings_games.png"
+                            alt="Jogos LEGO Senhor dos Anéis">
+                        <h5>Primeiro Lançamento: 2012</h5>
+                        <h1>Jogos LEGO O Senhor dos Anéis</h1>
+                        <p>Acompanhe Frodo e a Sociedade em sua jornada épica
+                            pela Terra Média. Reviva a trilogia clássica com a
+                            narrativa divertida dos jogos LEGO, enfrentando orcs
+                            e resolvendo quebra-cabeças.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_hobbit_theme.png"
+                                alt="Foto do escritor Guardião do Anel">
+                            <h1>Guardião do Anel</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_dc_super_villains_games.png"
+                            alt="Jogos LEGO DC Super-Villains">
+                        <h5>Primeiro Lançamento: 2018</h5>
+                        <h1>LEGO DC Super-Villains</h1>
+                        <p>Pela primeira vez, jogue como os vilões do universo
+                            DC! Crie seu próprio personagem e cause o caos ao
+                            lado de Lex Luthor, Coringa e outros, numa aventura
+                            onde os mocinhos são os impostores.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_villain_theme.png"
+                                alt="Foto do escritor Mestre do Caos">
+                            <h1>Mestre do Caos</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/theme_lego_city_undercover_games.png"
+                            alt="Jogos LEGO City Undercover">
+                        <h5>Primeiro Lançamento: 2013</h5>
+                        <h1>LEGO City Undercover</h1>
+                        <p>Um dos poucos jogos LEGO originais e de mundo aberto.
+                            Vista a pele do policial Chase McCain em uma paródia
+                            divertida de filmes de ação, com missões, disfarces
+                            e muitos veículos para usar.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_secret_agent.png"
+                                alt="Foto do escritor Agente Secreto Bloco">
+                            <h1>Agente Secreto Bloco</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cards-sections" id="movies">
+                <div class="title-description-section">
+                    <div>
+                        <h1>Filmes</h1>
+                        <h4><b>Luz, câmera... blocos em ação!</b> Dos novos sets
+                            chegando às lojas aos segredos dos designers. Aqui
+                            você não perde o encaixe de nenhuma novidade.</h4>
+                    </div>
+                    <div class="btn-conteiner btn-section" onclick>
+                        <a class="btn-content" href="#">
+                            <span class="btn-title">Mais!</span>
+                            <span class="icon-arrow">
+                                <svg width="66px" height="43px"
+                                    viewBox="0 0 66 43" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="arrow" stroke="none" stroke-width="1"
+                                        fill="none" fill-rule="evenodd">
+                                        <path id="arrow-icon-one"
+                                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-two"
+                                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                            fill="#111111"></path>
+                                        <path id="arrow-icon-three"
+                                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                            fill="#111111"></path>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-section">
+                    <div class="card">
+                        <img src="./assets/img/banners/movie_lego_movie.png"
+                            alt="Uma Aventura LEGO">
+                        <h5>Lançamento: 07/02/2014</h5>
+                        <h1>Uma Aventura LEGO (Franquia)</h1>
+                        <p>A saga que provou que LEGO pode ser sucesso no
+                            cinema! Siga Emmet, um construtor comum, em suas
+                            aventuras para salvar o mundo dos tiranos, com muito
+                            humor, criatividade e animação inovadora. Inclui
+                            "Uma Aventura LEGO 2".</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_director_movie.png"
+                                alt="Foto do escritor Diretor de Cinema">
+                            <h1>Diretor de Cinema</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/movie_lego_batman.png"
+                            alt="LEGO Batman: O Filme">
+                        <h5>Lançamento: 09/02/2017</h5>
+                        <h1>LEGO Batman: O Filme</h1>
+                        <p>Do mesmo universo de "Uma Aventura LEGO", este filme
+                            solo do Batman é uma paródia hilária do Cavaleiro
+                            das Trevas. Repleto de referências, músicas
+                            cativantes e um elenco de vilões e heróis LEGO.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_bat_movie.png"
+                                alt="Foto do escritor Herói de Gotham">
+                            <h1>Herói de Gotham</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/movie_lego_ninjago.png"
+                            alt="LEGO Ninjago: O Filme">
+                        <h5>Lançamento: 21/09/2017</h5>
+                        <h1>LEGO Ninjago: O Filme</h1>
+                        <p>Baseado na popular série animada, o filme traz os
+                            jovens ninjas de Ninjago para as telonas. Siga Lloyd
+                            e seus amigos em sua batalha contra o maligno
+                            Garmadon, com muita ação ninja e comédia
+                            familiar.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_ninja_movie.png"
+                                alt="Foto do escritor Mestre do Ki">
+                            <h1>Mestre do Ki</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img
+                            src="./assets/img/banners/movie_bionicle_movies.png"
+                            alt="Filmes LEGO Bionicle">
+                        <h5>Primeiro Lançamento: 2003</h5>
+                        <h1>Filmes LEGO Bionicle</h1>
+                        <p>Uma série de filmes animados em computação gráfica
+                            que expandiu o universo de Bionicle. Acompanhe os
+                            Toa em suas missões para salvar Mata Nui, explorando
+                            lendas e batalhas épicas com visuais únicos.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_mask_maker.png"
+                                alt="Foto do escritor Cronista Máscara">
+                            <h1>Cronista Máscara</h1>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/img/banners/movie_clutch_powers.png"
+                            alt="LEGO: As Aventuras de Clutch Powers">
+                        <h5>Lançamento: 24/02/2010</h5>
+                        <h1>LEGO: As Aventuras de Clutch Powers</h1>
+                        <p>O primeiro filme de animação LEGO em CGI! Siga Clutch
+                            Powers, um destemido construtor e sua equipe em uma
+                            aventura intergaláctica para deter um vilão e salvar
+                            o universo LEGO de uma destruição iminente.</p>
+                        <div>
+                            <img
+                                src="./assets/img/writers/minifig_adventurer_movie.png"
+                                alt="Foto do escritor Viajante dos Blocos">
+                            <h1>Viajante dos Blocos</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

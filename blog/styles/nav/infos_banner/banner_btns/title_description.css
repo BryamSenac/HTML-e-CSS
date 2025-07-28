@@ -1,8 +1,7 @@
 #title-description-banner{
     width: 100%;
-    height: 60%;
-    padding-right: 5%;
-    border-radius: 0 50vw 50vw 0;
+    padding: 5%;
+    border-radius: 0 8px 8px 0;
     background-color: var(--colorWhite);
 
     display: flex;
@@ -10,42 +9,21 @@
     align-items: start;
     justify-content: center;
 
-    padding-left: 5%;
-
-    box-shadow: 1vw 1.2vw 1vw -0.2vw var(--colorShadow);
+    box-shadow: 0.4vw 0.8vw 0.7vw var(--colorShadow);
 }
 
 #title-description-banner h1{
-    font-size: 2.5vw;
-    font-weight: bold;
+    font-size: 1.7vw;
+    font-weight: 500;
     margin-bottom: 1.5%;
 }
 
+#title-description-banner h1 b{
+    font-weight: 700;
+}
+
 #title-description-banner p{
-    font-size: 1.2vw;
+    font-size: 0.9vw;
+    text-align: justify;
     font-weight:lighter;
 }
-
-@media (max-width: 820px) {
-    #title-description-banner h1{
-        font-size: 3vw;
-    }
-    
-    #title-description-banner p{
-        font-size: 1.4vw;
-    }
-}
-
-@media (max-width: 480px) {
-    #title-description-banner{
-        width: 90%;
-        height: 50%;
-    }
-    #title-description-banner h1{
-        font-size: 6.5vw;
-    }
-    
-    #title-description-banner p{
-        font-size: 3vw;
-    }
-} 

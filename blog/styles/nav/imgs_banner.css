@@ -5,7 +5,7 @@
     height: 84%;
     margin: 0.5%;
 
-    border-radius: 1vw;
+    border-radius: 8px;
 
     z-index: -2;
 
@@ -33,15 +33,15 @@
 }
 
 #banner_1{
-    background-image: url(./../../assets/img/starwars_lego.png);
+    background-image: url(./../../assets/img/banners/starwars_lego.png);
 }
 
 #banner_2{
-    background-image: url(./../../assets/img/city_lego.png);
+    background-image: url(./../../assets/img/banners/city_lego.png);
 }
 
 #banner_3{
-    background-image: url(./../../assets/img/lordofrings_lego.png);
+    background-image: url(./../../assets/img/banners/lordofrings_lego.png);
 }
 
 @keyframes banner_rotaion {
@@ -64,22 +64,3 @@
         left: 0;
     }
 }
-
-
-@media (max-width: 820px) {
-    #banner_1, #banner_2, #banner_3{
-        background-position: left;
-    }
-    #img-banner{
-        height: 49%;
-    }
-}
-
-@media (max-width: 480px) {
-    #banner_1, #banner_2, #banner_3{
-        background-position: center;
-    }
-    #img-banner{
-        height: 69%;
-    }
-} 

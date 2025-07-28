@@ -13,10 +13,3 @@
     font-family: var(--fontCurve);
     color: var(--colorBlack);
 }
-
-
-@media (max-width: 480px) {
-    #infos-banner{
-        justify-content: end;
-    }
-}

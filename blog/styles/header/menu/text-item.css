@@ -2,13 +2,20 @@
   cursor: pointer;
   position: relative;
 
+  color: var(--colorBlack);
+  text-decoration: none;
+
   margin: 0 1vw;
 
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: color;
 
-  font-weight: 700;
+  font-weight: 500;
+}
+
+.text-menu:visited{
+  color: inherit;
 }
 
 .text-menu:focus,

@@ -1,10 +1,10 @@
 #language{
-    margin: 0 1vw;
+    margin: 0 0.7vw;
 }
 
 #language_container{
-    width: 2vw;
-    height: 2vw;
+    width: 1.8vw;
+    height: 1.8vw;
     border-radius: 50%;
 
     background-color: var(--colorBlack);
@@ -14,20 +14,3 @@
     align-items: center;
     justify-content: center;
 }
-
-@media (max-width: 820px) {
-    #language_container{
-        width: 4vw;
-        height: 4vw;
-    }
-}
-
-@media (max-width: 480px) {
-    #language_container{
-        width: 7vw;
-        height: 7vw;
-
-        font-size: 2vw;
-    }
-}
-
