@@ -1,53 +1,54 @@
-#footer_social button {
-  width: 35%;
-  font-family: inherit;
-  font-size: 1vw;
-  background-color: var(--colorBlack);
-  color: var(--colorWhite);
-  padding: 2% 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: none;
-  border-radius: 6px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s;
-  cursor: pointer;
+/* From Uiverse.io by adamgiebl */ 
+#newsletter_area button {
   font-family: var(--fontCurve);
-}
-
-#footer_social button:active {
-  transform: scale(0.95);
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-#footer_social button span {
-  display: block;
-  margin-left: 0.4em;
-  transition: all 0.3s;
-}
-
-#footer_social button svg {
-  width: 18px;
-  height: 18px;
-  transition: all 0.3s;
-}
-
-#footer_social button .svg-wrapper {
+  font-size: 20px;
+  background: var(--colorBlack);
+  color: var(--colorWhite);
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: all 0.3s;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
-#footer_social button:hover .svg-wrapper {
-  background-color: rgba(255, 255, 255, 0.5);
+#newsletter_area button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
 }
 
-#footer_social button:hover svg {
-  transform: rotate(45deg) scale(1.2);
+#newsletter_area button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+#newsletter_area button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+#newsletter_area button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+#newsletter_area button:hover span {
+  transform: translateX(5em);
+}
+
+#newsletter_area button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
