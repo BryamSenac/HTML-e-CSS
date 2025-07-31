@@ -1,0 +1,53 @@
+#footer_social button {
+  width: 35%;
+  font-family: inherit;
+  font-size: 1vw;
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  cursor: pointer;
+  font-family: var(--fontCurve);
+}
+
+#footer_social button:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#footer_social button span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s;
+}
+
+#footer_social button svg {
+  width: 18px;
+  height: 18px;
+  transition: all 0.3s;
+}
+
+#footer_social button .svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+}
+
+#footer_social button:hover .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#footer_social button:hover svg {
+  transform: rotate(45deg) scale(1.2);
+}

@@ -9,18 +9,19 @@ header{
     align-items: center;
     margin: 1.5vw 1.5vw;
 
+    z-index: 5;
+
     font-size: 0.8vw;
     font-family: var(--fontCurve);
     color: var(--colorBlack);
 
     background-color: var(--colorWhite);
     border-radius: 8px;
-    padding: 1.5vh 1.5vw;
-
-    box-shadow: 0.4vw 0.8vw 0.7vw var(--colorShadow);
+    padding: 1.5vh 1.5vw;    
 }
 
 header div{
     display: flex;
     align-items: center;
 }
+
