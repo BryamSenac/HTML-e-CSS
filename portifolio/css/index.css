@@ -1,29 +1,16 @@
 @import url(./default.css);
+@import url(./vars.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./footer.css);
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-:root{
-    --colorBlack: #333333;
-    --colorWhite: #F6F6F4;
-    --colorBlue: #0181c2;
-    --colorPink: #e60b7c;
-    --colorOrange: #df7c08;
-
-    --colorShadows:#33333399;
-
-    --fontPrimary: 'Bebas Neue';
-    --fontSecundary: 'Montserrat';
-}
 
 body{
     width: 100vw;
     height: 100vh;
 
-    background-color: var(--colorWhite);
-
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/820/720/original/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg);
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
 }
 

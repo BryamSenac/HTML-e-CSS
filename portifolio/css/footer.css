@@ -18,7 +18,7 @@ footer{
 }
 
 .btn-footer i{
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     color: var(--colorBlack);
 
     transition: all 0.2s ease-in-out;

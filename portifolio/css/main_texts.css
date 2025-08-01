@@ -1,62 +1,77 @@
-
-#main-texts{
+#main-texts {
     height: 80%;
     width: 30%;
 }
 
-#name{
+#name {
     position: absolute;
     font-size: 12vw;
     top: 18%;
 
     transition: all 0.2s ease-in-out;
-    cursor:default;
+    cursor: default;
+
+    background: linear-gradient(150deg, var(--colorBlack), var(--colorBlack), var(--colorBlack), var(--colorBlue), var(--colorBlack), var(--colorBlack));
+    background-size: 200% auto;
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    animation: cor-passando 5s linear infinite;
 }
-#last-name{
+
+#last-name {
     position: absolute;
     font-size: 9.2vw;
     top: 39%;
-    
+
     transition: all 0.2s ease-in-out;
-    cursor:default;
+    cursor: default;
+
+    background: linear-gradient(150deg, var(--colorBlack), var(--colorBlack), var(--colorPink), var(--colorBlack), var(--colorBlack), var(--colorBlack));
+    background-size: 200% auto;
+
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    animation: cor-passando 5s linear infinite;
 }
-#description{
+
+#description {
     position: absolute;
     font-size: 1vw;
-    top: 60%;
+    top: 56%;
     width: 24.8%;
     text-align: justify;
-    
-    transition: all 0.2s ease-in-out;
-    cursor:default;
+    cursor: default;
 }
 
-#name:hover{
-    color: var(--colorBlue);
+@keyframes cor-passando {
+    to {
+        background-position: -200% center;
+    }
 }
 
-#last-name:hover{
-    color: var(--colorPink);
-}
 
-#description:hover{
-    color: var(--colorOrange);
-}
-
-@media (max-width: 480px){
-    #main-texts{
+@media (max-width: 480px) {
+    #main-texts {
         height: 90%;
         width: 90%;
     }
-    #name{
+
+    #name {
         font-size: 32vw;
         top: 10%;
     }
-    #last-name{
+
+    #last-name {
         font-size: 24.5vw;
         top: 25%;
     }
-    #description{
+
+    #description {
         font-size: 3vw;
         top: 75%;
         width: 90%;

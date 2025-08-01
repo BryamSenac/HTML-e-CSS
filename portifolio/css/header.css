@@ -10,21 +10,19 @@ header{
 }
 
 #logo-figure{
-    height: 80%;
+    height: 65%;
 }
 
 #logo{
-    height: 100%;
-
-    border-radius: 50%;
-    box-shadow: 2px 2px 4px 2px var(--colorShadows);
+    height: 100%; 
 }
 
 #profession{
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: var(--colorBlack);
+    font-family: var(font);
 
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 @media (max-width: 480px){
