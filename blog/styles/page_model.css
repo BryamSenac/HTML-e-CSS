@@ -3,9 +3,9 @@
 
 @import url(./header/header.css);
 @import url(./nav/nav.css);
-@import url(./index_main/sections.css);
 @import url(./footer/infos_main/infos_main.css);
 @import url(./footer/infos_footer/infos_footer.css);
+@import url(./page_model_main/main.css);
 
 body{
     background-color: var(--colorWhite);

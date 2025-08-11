@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo da Página -->
+        <title>Página Modelo</title>
+        <!-- Conexão com arquivo CSS de estilizzção -->
+        <link rel="stylesheet" href="./../styles/page_model.css">
+        <!-- Conexão com API do FontAwesome para icones -->
+        <script src="https://kit.fontawesome.com/398cd98506.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img
+                    src="https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png"
+                    alt="logo-lego" id="header-logo" class="desktop-only" />
+                <ul id="menu">
+                    <li>
+                        <a href="./../index.html#banners"
+                            class="desktop-only text-menu">Home</a>
+                        <div class="mobile-only "><i
+                                class="fa-solid fa-house"></i></div>
+                    </li>
+                    <li>
+                        <a href="./../index.html#news"
+                            class="desktop-only text-menu">Notícia</a>
+                        <div class="mobile-only "><i
+                                class="fa-solid fa-newspaper"></i></div>
+                    </li>
+                    <li>
+                        <a href="./../index.html#puzles"
+                            class="desktop-only text-menu">Quebra-Cabeças</a>
+                        <div class="mobile-only "><i
+                                class="fa-solid fa-puzzle-piece"></i></div>
+                    </li>
+                    <li>
+                        <a href="./../index.html#games"
+                            class="desktop-only text-menu">Jogos</a>
+                        <div class="mobile-only "><i
+                                class="fa-solid fa-gamepad"></i></div>
+                    </li>
+                    <li>
+                        <a href="./../index.html#movies"
+                            class="desktop-only text-menu">Filmes</a>
+                        <div class="mobile-only "><i
+                                class="fa-solid fa-video"></i></div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <img
+                    src="https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png"
+                    alt="logo-lego" id="header-logo" class="mobile-only" />
+                <h2 class="desktop-only" id="language">BR</h2>
+                <div id="language_container">
+                    <div class="desktop-only">
+                        <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h2 class="mobile-only" id="language">BR</h2>
+                </div>
+            </div>
+        </header>
+        <nav id="banners">
+            <section id="infos-banner">
+                <div id="banner-btns">
+                    <div id="title-description-banner">
+                        <h1>Aqui vai o <b>TÍTULO</b> do blog!</h1>
+                        <p>Uma breve descrição do blog, basicamente o mesmo
+                            texto que está no cartão, completo mas sme passar de
+                            4 linhas!</p>
+                    </div>
+                    <div id='btns-rotation-banner'>
+                        <div class="btn-banner"></div>
+                        <div class="btn-banner"></div>
+                        <div class="btn-banner"></div>
+                        <div id="animation-btn-banner"></div>
+                    </div>
+                </div>
+                <div id="autor-infos">
+                    <div id="autor-img"></div>
+                    <div id="name-date">
+                        <h1>Nome do autor</h1>
+                        <p>88/88/8888</p>
+                    </div>
+                </div>
+            </section>
+            <section id="img-banner">
+                <div id="banner-rotations">
+                    <div id="banner_1"></div>
+                    <div id="banner_2"></div>
+                    <div id="banner_3"></div>
+                </div>
+            </section>
+        </nav>
+        <main>
+            <article>
+                <h1>O que é um Blog e Como Ele é Estruturado?</h1>
+                <p class="post-meta">Publicado em <time
+                        datetime="2025-08-11">11 de agosto de 2025</time>
+                    por Ajudante de Programação</p>
+
+                <p>Um blog é uma página na web onde um ou mais autores publicam
+                    artigos (chamados de "posts") sobre um determinado tema.
+                    Este post que você está a ler é um exemplo prático de como
+                    um blog pode ser estruturado, explicando cada uma das suas
+                    partes.</p>
+
+                <h2>O Título: A Primeira Impressão</h2>
+                <p>O título, como o que você leu acima, é a parte mais
+                    importante. Ele deve ser cativante e resumir o conteúdo do
+                    post para atrair a atenção do leitor e dos motores de busca
+                    como o Google. Geralmente, usamos a tag
+                    <strong>&lt;h1&gt;</strong> para ele.</p>
+
+                <h2>Imagens: O Apelo Visual</h2>
+                <p>Imagens quebram a monotonia do texto e ajudam a ilustrar
+                    conceitos. Elas tornam a leitura mais agradável e podem
+                    transmitir informações rapidamente. É uma boa prática usar a
+                    tag <strong>&lt;figure&gt;</strong> com uma
+                    <strong>&lt;figcaption&gt;</strong> para dar contexto à
+                    imagem.</p>
+
+                <figure class="post-image">
+                    <img
+                        src="./../assets/img/footer/anuncio_bg.png"
+                        alt="Mesa de trabalho com um portátil, café e um caderno de anotações.">
+                    <figcaption>Uma imagem de exemplo para ilustrar o conteúdo
+                        do blog.</figcaption>
+                </figure>
+
+                <h2>Vídeos: Conteúdo Dinâmico</h2>
+                <p>Incorporar vídeos é uma excelente forma de apresentar
+                    tutoriais, entrevistas ou demonstrações. Eles aumentam o
+                    tempo que o utilizador passa na página. Geralmente, usamos
+                    um <strong>&lt;iframe&gt;</strong> para incorporar vídeos de
+                    plataformas como o YouTube ou Vimeo.</p>
+
+                <div class="post-video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/xm5O26zbIu4?si=a3_5QkvYFHKu2nf9"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <h2>Subtítulos e Parágrafos: Organizando as Ideias</h2>
+                <p>Assim como este, os subtítulos (tags
+                    <strong>&lt;h2&gt;</strong>, <strong>&lt;h3&gt;</strong>,
+                    etc.) são usados para dividir o texto em secções lógicas.
+                    Isso facilita a leitura e permite que o utilizador encontre
+                    rapidamente a informação que procura. Os parágrafos
+                    (<strong>&lt;p&gt;</strong>) contêm o desenvolvimento de
+                    cada ideia.</p>
+            </article>
+            <aside>
+                <img
+                    src="./../assets/img/blogs/news/news (1).png"
+                    alt="Notícias"
+                    onclick="window.location.href='./../index.html#news'"
+                    >
+                <img
+                    src="./../assets/img/blogs/news/news (2).png"
+                    alt="Notícias"
+                    onclick="window.location.href='./../index.html#news'"
+                    >
+                <img
+                    src="./../assets/img/blogs/news/news (3).png"
+                    alt="Notícias"
+                    onclick="window.location.href='./../index.html#news'"
+                    >
+                <img
+                    src="./../assets/img/blogs/news/news (4).png"
+                    alt="Notícias"
+                    onclick="window.location.href='./../index.html#news'">
+            </aside>
+        </main>
+        <footer>
+            <section id="infos">
+                <div id="infos_main_senac">
+                    <div id="senac_area">
+                        <i class="fa-solid fa-globe"></i>
+                        <div id="text_senac">
+                            <h3>Quer construir sites como esse?</h3>
+                            <p>SENAC - Francisco Beltrão</p>
+                        </div>
+                        <div id="btn_senac"
+                            onclick="window.open('https://www.pr.senac.br/cursos/?c=40527', 'blank')">
+                            <a class="btn-content" href="#">
+                                <span class="btn-title">Inscreva-se</span>
+                                <span class="icon-arrow">
+                                    <svg width="66px" height="43px"
+                                        viewBox="0 0 66 43" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="arrow" stroke="none"
+                                            stroke-width="1"
+                                            fill="none" fill-rule="evenodd">
+                                            <path id="arrow-icon-one"
+                                                d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                                                fill="#111111"></path>
+                                            <path id="arrow-icon-two"
+                                                d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                                                fill="#111111"></path>
+                                            <path id="arrow-icon-three"
+                                                d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                                                fill="#111111"></path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="datas_main">
+                        <h5>30</h5>
+                        <p>Posts nesse Blog</p>
+                    </div>
+                </div>
+                <div id="motivational_phrase">
+                    <p>"Life is all about building. It’s Lego; you can create anything!"
+                        – Alex Carter </p>
+                </div>
+            </section>
+            <section id="infos_footer">
+                <div class="footer_lateral" id="fotter_responsibility">
+                    <div>
+                        <img
+                            src="https://logos-world.net/wp-content/uploads/2020/09/LEGO-Symbol.png"
+                            alt="logo-lego" id="footer-logo"
+                            class="desktop-only" />
+                        <p>Esse blog foi construido como parte das aulas de
+                            programação dos crusos de HTML e CSS, e Programador
+                            WEB, forneceidos pelo SENAC/PR unidade de Francsico
+                            Belrão com o Instrutor Bryam Assolini!</p>
+                    </div>
+                    <div>
+                        <p>@2025 Direitos reservados a SENAC/PR</p>
+                    </div>
+                </div>
+                <div class="footer_central">
+                    <a>Outros Projetos HTML e CSS</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Portifólio</a>
+                </div>
+                <div class="footer_central">
+                    <a>Contato</a>
+                    <a>(46) 3905-6800</a>
+                </div>
+                <div class="footer_lateral" id="footer_social">
+                    <p>Inscreva-se na Newsletter SENAC</p>
+                    <div id="newsletter_area">
+                        <input type="email" placeholder="Digite seu e-mail">
+                        <!-- From Uiverse.io by adamgiebl -->
+                        <button
+                            onclick="alert('Agradecemos muito o interesse, mas nosso newsletter está desligada!')">
+                            <div class="svg-wrapper-1">
+                                <div class="svg-wrapper">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        width="24"
+                                        height="24">
+                                        <path fill="none"
+                                            d="M0 0h24v24H0z"></path>
+                                        <path
+                                            fill="currentColor"
+                                            d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <span>Enviar</span>
+                        </button>
+                    </div>
+                    <div id="social_buttons">
+                        <div
+                            onclick="window.open('www.linkedin.com/in/bryam-assolini-a8b958190', 'blank')">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div
+                            onclick="window.open('https://wa.me/5546984004056', 'blank')">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div
+                            onclick="window.open('https://www.instagram.com/bryam145', 'blank')">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div
+                            onclick="alert('Ainda não estou nessa rede, desculpe!'); return false">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div
+                            onclick="alert('Ainda não estou nessa rede, desculpe!'); return false">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                    </div>
+                    <div id="terms">
+                        <p
+                            onclick="alert('A gente promete não fazer nada de errado!'); return false">Termos
+                            de Serviço</p>
+                        <p
+                            onclick="alert('A gente promete não fazer nada de errado!'); return false">Politicas
+                            de Uso</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
