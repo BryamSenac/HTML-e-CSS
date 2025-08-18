@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Curso: Programação de sites com HTML e CSS</title>
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+    <body>
+        <header>
+            <img
+                class="header-logo"
+                src="https://th.bing.com/th/id/R.0eb41304439f18473d7bf7dac3d9f61c?rik=LaJ7CKM1WvUmfg&riu=http%3a%2f%2fblog.sc.senac.br%2fwp-content%2fuploads%2f2012%2f08%2f11.jpg&ehk=opagVlgU1%2b742lNKgfDv96t7%2fI%2f3yMj%2bJ8PGRD14WMw%3d&risl=&pid=ImgRaw&r=0"
+                alt="Logo SENAC" />
+            <button class="header-btn"
+                onclick="location.href='#projects'">Projetos do Curso!</button>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Programação de sites com HTML e CSS</h1>
+                <div class="hero-logos">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                        alt="Logo do HTML5">
+                    <h1>&</h1>
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                        alt="Logo do CSS3">
+                </div>
+                <p>Aprenda a criar páginas web incríveis do zero e transforme
+                    suas ideias em realidade!</p>
+                <button class="cta-button"
+                    onclick="window.location.href='https://www.pr.senac.br/livres'">Inscreva-se</button>
+            </section>
+            <section id="projects" class="projects">
+                <h2>Projetos que você vai desenvolver</h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <div class="project-title">
+                            <h3>Blog Temático</h3>
+                            <button id="projects-btn" class="learn-more"
+                                onclick="window.location.href='./projects/blog/index.html'">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">Vistar Site</span>
+                            </button>
+                        </div>
+                        <div class="iframe-wrapper">
+                            <iframe src="./projects/blog/index.html"
+                                title="Projeto 1: Página de Portfólio"></iframe>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-title">
+                            <h3>Portifólio Pessoal</h3>
+                            <button id="projects-btn" class="learn-more"
+                                onclick="window.location.href='./projects/portifolio/index.html'">
+                                <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                </span>
+                                <span class="button-text">Vistar Site</span>
+                            </button>
+                        </div>
+                        <div class="iframe-wrapper">
+                            <iframe src="./projects/portifolio/index.html"
+                                title="Projeto 2: Clone de Site Famoso"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="cta" class="final-cta">
+                <h2>Pronto para começar sua jornada como Dev?</h2>
+                <p>Junte-se a centenas de alunos e dê o primeiro passo na sua
+                    carreira na tecnologia.</p>
+                <button
+                    onclick="window.location.href='https://www.pr.senac.br/livres'"
+                    class="cta-button">Inscreva-se Agora</button>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 SENAC - FB. Todos os direitos reservados.</p>
+            <p>Desenvolvedor da página Bryam Assolini</p>
+        </footer>
+    </body>
+</html>

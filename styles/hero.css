@@ -1,0 +1,87 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: var(--colorBlack);
+    min-height: 80vh;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.hero-logos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.hero-logos img {
+    object-fit: contain;
+    filter: drop-shadow(0 4px 15px rgba(0, 0, 0, 0.4));
+    transition: all 0.3s ease;
+}
+
+.hero-logos img:hover {
+    transform: scale(1.1);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: var(--colorShadow);
+}
+
+.cta-button {
+    background: transparent;
+    position: relative;
+    padding: 1rem 1.7rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--colorBlue);
+    border-radius: 0.3rem;
+    outline: none;
+    overflow: hidden;
+    color: var(--colorBlue);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+}
+
+.cta-button::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+}
+
+.cta-button:hover {
+    color: var(--colorWhite);
+    border: 1px solid var(--colorBlue);
+}
+
+.cta-button:hover::before {
+    box-shadow: inset 0 0 0 10em var(--colorBlue);
+}

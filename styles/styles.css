@@ -1,0 +1,31 @@
+@import url(./default.css);
+@import url(./vars.css);
+
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./projects.css);
+@import url(./final_cta.css);
+@import url(./footer.css);
+
+body {
+    font-family: 'Roboto';
+    background-color: var(--colorWhite);
+    color: var(--colorBlack);
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero-logos img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr 1fr;
+        /* Duas colunas em telas maiores */
+    }
+}
