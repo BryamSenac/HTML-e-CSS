@@ -14,6 +14,7 @@
 }
 
 .footer_central a {
+    color: var(--colorWhite);
     text-decoration: none;
     margin-top: 10%;
 }
