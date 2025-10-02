@@ -1,11 +1,12 @@
 .projects {
-    padding: 10vh 10vw;
+    padding: 5vh 10vw;
     background-color: var(--colorOrange);
 }
 
 .projects h2 {
     text-align: center;
     font-size: 2.5rem;
+    font-weight: 900;
     margin-bottom: 3rem;
     color: var(--colorWhite);
 }
@@ -19,6 +20,7 @@
 .project-item h3 {
     font-size: 1.5rem;
     color: var(--colorWhite);
+    font-weight: 500;
 }
 
 .project-title{
@@ -46,7 +48,7 @@
     border: 0;
 }
 
-#projects-btn {
+.projects-btn {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -60,12 +62,12 @@
     font-family: inherit;
 }
 
-#projects-btn.learn-more {
+.projects-btn.learn-more {
     width: 12rem;
     height: auto;
 }
 
-#projects-btn.learn-more .circle {
+.projects-btn.learn-more .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
     display: block;
@@ -76,7 +78,7 @@
     border-radius: 1.625rem;
 }
 
-#projects-btn.learn-more .circle .icon {
+.projects-btn.learn-more .circle .icon {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -85,7 +87,7 @@
     background: var(--colorBlack);
 }
 
-#projects-btn.learn-more .circle .icon.arrow {
+.projects-btn.learn-more .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     left: 0.625rem;
     width: 1.125rem;
@@ -93,19 +95,19 @@
     background: none;
 }
 
-#projects-btn.learn-more .circle .icon.arrow::before {
+.projects-btn.learn-more .circle .icon.arrow::before {
     position: absolute;
     content: "";
     top: -0.29rem;
     right: 0.0625rem;
     width: 0.625rem;
     height: 0.625rem;
-    border-top: 0.125rem solid var(--colorBlack);
-    border-right: 0.125rem solid var(--colorBlack);
+    border-top: 0.125rem solid var(--colorOrange);
+    border-right: 0.125rem solid var(--colorOrange);
     transform: rotate(45deg);
 }
 
-#projects-btn.learn-more .button-text {
+.projects-btn.learn-more .button-text {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: absolute;
     top: 0;
@@ -121,15 +123,15 @@
     text-transform: uppercase;
 }
 
-#projects-btn:hover .circle {
+.projects-btn:hover .circle {
     width: 100%;
 }
 
-#projects-btn:hover .circle .icon.arrow {
-    background: var(--colorBlack);
+.projects-btn:hover .circle .icon.arrow {
+    background: var(--colorOrange);
     transform: translate(1rem, 0);
 }
 
-#projects-btn:hover .button-text {
-    color: var(--colorBlack);
+.projects-btn:hover .button-text {
+    color: var(--colorOrange);
 }

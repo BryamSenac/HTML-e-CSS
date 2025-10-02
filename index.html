@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Curso: Programação de sites com HTML e CSS</title>
         <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="icon" type="image/jpeg" href="./assets/logo_senac.jpg">
     </head>
     <body>
         <header>
@@ -17,20 +18,24 @@
         </header>
         <main>
             <section class="hero">
-                <h1>Programação de sites com HTML e CSS</h1>
-                <div class="hero-logos">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
-                        alt="Logo do HTML5">
-                    <h1>&</h1>
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
-                        alt="Logo do CSS3">
+                <div class="hero-left">
+                    <h1>Programação de sites com HTML e CSS</h1>
+                    <button class="cta-button"
+                        onclick="window.location.href='https://www.pr.senac.br/livres'">Inscreva-se</button>
                 </div>
-                <p>Aprenda a criar páginas web incríveis do zero e transforme
-                    suas ideias em realidade!</p>
-                <button class="cta-button"
-                    onclick="window.location.href='https://www.pr.senac.br/livres'">Inscreva-se</button>
+                <div class="hero-rigth">
+                    <div class="hero-logos">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                            alt="Logo do HTML5">
+                        <h1>&</h1>
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                            alt="Logo do CSS3">
+                    </div>
+                    <p>Aprenda a criar páginas web incríveis do zero e
+                        transforme suas ideias em realidade!</p>
+                </div>
             </section>
             <section id="projects" class="projects">
                 <h2>Projetos que você vai desenvolver</h2>
@@ -38,7 +43,7 @@
                     <div class="project-item">
                         <div class="project-title">
                             <h3>Blog Temático</h3>
-                            <button id="projects-btn" class="learn-more"
+                            <button class="projects-btn learn-more"
                                 onclick="window.location.href='./projects/blog/index.html'">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -54,7 +59,7 @@
                     <div class="project-item">
                         <div class="project-title">
                             <h3>Portifólio Pessoal</h3>
-                            <button id="projects-btn" class="learn-more"
+                            <button class="projects-btn learn-more"
                                 onclick="window.location.href='./projects/portifolio/index.html'">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
@@ -69,18 +74,20 @@
                     </div>
                 </div>
             </section>
-            <section id="cta" class="final-cta">
+        </main>
+        <footer>
+            <div id="cta" class="final-cta">
                 <h2>Pronto para começar sua jornada como Dev?</h2>
                 <p>Junte-se a centenas de alunos e dê o primeiro passo na sua
                     carreira na tecnologia.</p>
                 <button
                     onclick="window.location.href='https://www.pr.senac.br/livres'"
                     class="cta-button">Inscreva-se Agora</button>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2025 SENAC - FB. Todos os direitos reservados.</p>
-            <p>Desenvolvedor da página Bryam Assolini</p>
+            </div>
+            <div class="button-footer">
+                <p>&copy; 2025 SENAC - FB. Todos os direitos reservados.</p>
+                <p>Desenvolvedor da página Bryam Assolini</p>
+            </div>
         </footer>
     </body>
 </html>
